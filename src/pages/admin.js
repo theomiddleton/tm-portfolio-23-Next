@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import React from 'react'
 
-import styles from './admin.module.css'
+import styles from '../styles/admin.module.css'
 
 const Admin = (props) => {
   return (
