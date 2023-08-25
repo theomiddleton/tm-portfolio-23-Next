@@ -7,16 +7,16 @@ const NotFound = (props) => {
   return (
     <>
     <div className={styles['container']}></div>
-      <div className="not-found-container">
+      <div className={styles["not-found-container"]}>
         <Head>
           <title>404 - Not Found</title>
         </Head>
         <h3>OOPS! PAGE NOT FOUND</h3>
-        <div className="not-found-container1">
-          <h1 className="not-found-text1">404</h1>
+        <div className={styles["not-found-container1"]}>
+          <h1 className={styles["not-found-text1"]}>404</h1>
         </div>
-        <div className="not-found-container2">
-          <h2 className="not-found-text2">
+        <div className={styles["not-found-container2"]}>
+          <h2 className={styles["not-found-text2"]}>
             WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND
           </h2>
         </div>
