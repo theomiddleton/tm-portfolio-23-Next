@@ -3,11 +3,11 @@ import Head from 'next/head'
 
 import React from 'react'
 
-import './admin.css'
+import styles from './admin.module.css'
 
 const Admin = (props) => {
   return (
-    <div className="admin-container">
+    <div className={styles['container']}>
       <h1>Upload</h1>
       <div className="admin-container1"></div>
       <div className="admin-container2">

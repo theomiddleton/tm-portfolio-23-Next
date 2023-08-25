@@ -1,14 +1,12 @@
 import React from 'react'
 import Head from 'next/head'
 
-import GalleryCard1 from '../components/gallery-card'
-
-import GalleryCard1 from './gallery-card'
-import './home.css'
+import GalleryCard from '../components/gallery-card'
+import styles from '../styles/home.module.css'
 
 const Home = (props) => {
   return (
-    <div className="home-container">
+    <div className={styles['container']}>
       <Head>
         <title>tm-portfolio-23</title>
         <meta name="description" content="The portfolio of Theo Middleton" />
@@ -85,38 +83,38 @@ const Home = (props) => {
           <div className="home-container03">
             <div className="home-container04">
               <div className="home-container05">
-                <GalleryCard1
+                <GalleryCard
                   imageSrc="https://images.unsplash.com/photo-1662315236996-2a4a2b9c8bc5?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1286&amp;q=80"
                   description="A hippo in the sun"
                   rootClassName="rootClassName11"
                   className="home-component"
-                ></GalleryCard1>
+                ></GalleryCard>
               </div>
               <div className="home-container06">
-                <GalleryCard1
+                <GalleryCard
                   imageSrc="https://images.unsplash.com/photo-1692814463091-2c400066bacc?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1286&amp;q=80"
                   description="Two swim in a summer lagoon"
                   rootClassName="rootClassName12"
                   className="home-component1"
-                ></GalleryCard1>
+                ></GalleryCard>
               </div>
             </div>
             <div className="home-container07">
-              <GalleryCard1
+              <GalleryCard
                 imageSrc="https://images.unsplash.com/photo-1682357344476-ba235e807fd9?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1173&amp;q=80"
                 description="A beached red white and blue boat"
                 rootClassName="rootClassName10"
                 className="home-component2"
-              ></GalleryCard1>
+              ></GalleryCard>
             </div>
           </div>
           <div className="home-container08">
-            <GalleryCard1
+            <GalleryCard
               imageSrc="https://images.unsplash.com/photo-1662315215682-b2e0d34b67cc?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1286&amp;q=80"
               description="An aerial view of Chicago"
               rootClassName="rootClassName9"
               className="home-component3"
-            ></GalleryCard1>
+            ></GalleryCard>
           </div>
         </div>
         <div className="home-gallery1">
